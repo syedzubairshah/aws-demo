@@ -3,5 +3,5 @@ from sys.columns c
 join sys.tables t on c.object_id = t.object_id
 join sys.types ty on ty.system_type_id=c.system_type_id
 where c.name like '%Case_No%' and t.name like '%%'
-order by tablename,columnname
+order by tablename,columnnam
 
