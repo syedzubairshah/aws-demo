@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\aws-demo\\demo-app\\demo-app\\demo-app.csproj": {}
+    "D:\\Projects\\aws-demo\\demo-app\\demo-app.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\aws-demo\\demo-app\\demo-app\\demo-app.csproj": {
+    "D:\\Projects\\aws-demo\\demo-app\\demo-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\aws-demo\\demo-app\\demo-app\\demo-app.csproj",
+        "projectUniqueName": "D:\\Projects\\aws-demo\\demo-app\\demo-app.csproj",
         "projectName": "demo-app",
-        "projectPath": "D:\\Projects\\aws-demo\\demo-app\\demo-app\\demo-app.csproj",
+        "projectPath": "D:\\Projects\\aws-demo\\demo-app\\demo-app.csproj",
         "packagesPath": "C:\\Users\\Zubair Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\aws-demo\\demo-app\\demo-app\\obj\\",
+        "outputPath": "D:\\Projects\\aws-demo\\demo-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
