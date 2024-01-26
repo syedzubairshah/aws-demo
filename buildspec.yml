@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 6.0
+    commands:
+      - echo "Installing .NET Core SDK..."
+      - curl -SL -o dotnet-install.sh https://dot.net/v1/dotnet-install.sh
+      - chmod +x dotnet-install.sh
+      - ./dotnet-install.sh -c 6.0
+
+  pre_build:
+    commands:
+      - echo "Restoring NuGet packages..."
+      - dotnet restore
+
+  build:
+    commands:
+      - echo "Building the .NET application..."
+      - dotnet build -c Release
+
+  post_build:
+    commands:
+      - echo "Publishing the application..."
+      - dotnet publish -c Release -o publish_output
+
+artifacts:
+  files: publish_output/**/*
+  discard-paths: yes
